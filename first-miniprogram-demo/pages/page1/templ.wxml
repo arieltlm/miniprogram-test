@@ -1,0 +1,7 @@
+<!-- 使用 name 属性，作为模板的名字 -->
+<template name="templ">
+    <view>
+      <text> {{index}}: {{msg}} </text>
+      <text> Time: {{time}} </text>
+    </view>
+</template>

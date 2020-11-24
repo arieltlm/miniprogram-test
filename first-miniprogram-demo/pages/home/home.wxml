@@ -1,0 +1,47 @@
+<view>
+  <!-- <button class="weui-btn weui-btn_primary">
+    主操作
+  </button>
+  <button class="weui-btn weui-btn_default">
+    次要操作
+  </button>
+  <button class="weui-btn weui-btn_primary weui-btn_loading">
+    <i class="weui-loading"></i>正在加载
+  </button>
+  <button class="weui-btn weui-btn_primary weui-btn_disabled">
+    禁止点击
+  </button>   -->
+  <!-- <image src="https://picsum.photos/200"
+  style="height:375rpx;width:375rpx;"></image> -->
+
+  <swiper
+    indicator-dots="{{true}}"  
+    autoplay="{{true}}"
+    style="width: 750rpx;">
+    <swiper-item>
+      <image src="https://picsum.photos/200"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://picsum.photos/250"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="https://picsum.photos/300"></image>
+    </swiper-item>
+  </swiper>
+  <text>hello {{name}}</text>
+  <text>hello {{now}}</text>
+
+  <!-- tap：触摸后马上离开。
+  longpress：触摸后，超过 350ms 再离开。如果指定了该事件的回调函数并触发了该事件，tap事件将不被触发。
+  touchstart：触摸开始。
+  touchmove：触摸后移动。
+  touchcancel：触摸动作被打断，如来电提醒，弹窗等。
+  touchend：触摸结束。 -->
+  <!-- capture-bind：捕获阶段触发。
+  capture-catch：捕获阶段触发，并中断事件，不再向下传播，即中断捕获阶段，并取消随后的冒泡阶段。
+  bind：冒泡阶段触发。
+  catch：冒泡阶段触发，并取消事件进一步向上冒泡。 -->
+  <button bindtap="changeName" class="weui-btn weui-btn_primary">改变名字</button>
+  <button bindtap="changeModal" class="weui-btn weui-btn_primary">确认Modal</button>
+  <navigator url="../page1/page1">前往page1</navigator>
+</view>

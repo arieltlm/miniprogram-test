@@ -1,0 +1,17 @@
+<template name="nameTemplate">
+  <view>
+    <text>{{name}}</text>
+  </view>
+</template>
+
+<template name="lists">
+  <text wx:for="{{userList}}" wx:key="id">
+    {{index}}、{{item.name}}
+  </text>
+</template>
+
+<template name="list">
+  <text wx:for="{{dtItems}}" wx:key="*this">
+    {{index}}、{{item}}
+  </text>
+</template>

@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/page1/page1",
+    "pages/home/home"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序demo"
+  },
+  "sitemapLocation": "sitemap.json"
+}

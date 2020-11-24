@@ -1,0 +1,8 @@
+page{
+    height: 100%;
+    /*rpx是小程序为适应不同宽度的手机屏幕，而发明的一种长度单位。不管什么手机屏幕，宽度一律为750rpx。它的好处是换算简单，如果一个元素的宽度是页面的一半，只要写成width: 375rpx;即可 */
+    width:750rpx; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
